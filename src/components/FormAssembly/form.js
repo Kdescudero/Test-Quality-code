@@ -28,9 +28,15 @@ class Form extends React.Component{
       const { running } = runningLocal;
       const infoLocalStorage = JSON.parse(localStorage.getItem('DataInfo'));
 
-      const descSubClass = infoLocalStorage.subClass;
-      const descClass = infoLocalStorage.selectClass;
-      const descTask = infoLocalStorage.task;
+      let descSubClass = '';
+      let descClass = '';
+      let descTask = '';
+
+      if(infoLocalStorage){
+         descSubClass = infoLocalStorage.subClass;
+         descClass = infoLocalStorage.selectClass;
+         descTask = infoLocalStorage.task;
+      }
 
       const products = [
          {id: 1, name: 'Collares'},

@@ -1,5 +1,5 @@
 import React from 'react';
-import { AppBar, Toolbar, IconButton, Typography, Button, makeStyles  } from '@material-ui/core';
+import { AppBar, Toolbar, IconButton, Typography, makeStyles  } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 
 const styles = makeStyles(theme => ({
@@ -24,9 +24,8 @@ const Header =()=>{
                   <MenuIcon />
                </IconButton>
                <Typography variant="h6" className={classes.title}>
-                  News
+                  Ensambladora De Accesorio
                </Typography>
-               <Button color="inherit">Login</Button>
             </Toolbar>
          </AppBar>
       </div>
