@@ -1,0 +1,13 @@
+.root {
+    padding: 0 12px 15px 12px;
+    margin: 12px 12px 0 12px;
+}
+
+.form {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Form_Control {
+    width: 33%;
+}

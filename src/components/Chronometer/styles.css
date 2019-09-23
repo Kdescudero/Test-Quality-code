@@ -1,0 +1,11 @@
+.container_chronometer {
+    margin-top : 23px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.btn_actions {
+    margin-left: 12px;
+}
